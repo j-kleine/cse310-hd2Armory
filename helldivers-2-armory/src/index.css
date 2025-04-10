@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'HelldiversHeaderFont';
+    src: url('./assets/fonts/Swiss 721 Extended Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelldiversBodyFont';
+    src: url('./assets/fonts/FS Sinclair Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
