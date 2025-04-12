@@ -1,0 +1,47 @@
+[
+    {
+        "id": "B-27",
+        "name": "Fortified Commando",
+        "armor": 100,
+        "speed": 100,
+        "stamina": 100,
+        "passive": "Standard Issue",
+        "description": "This armor set first appeared in the music video for the summer anthem 'Our Love Is like Liberty (Indestructible)'."
+    },
+    {
+        "id": "CE-67",
+        "name": "Titan",
+        "armor": 100,
+        "speed": 100,
+        "stamina": 100,
+        "passive": "Standard Issue",
+        "description": "A quality product, this armor can destroy over 300,000 kilometers of fencing with no decline in operational efficiency."
+    },
+    {
+        "id": "CW-22",
+        "name": "Kodiak",
+        "armor": 100,
+        "speed": 100,
+        "stamina": 100,
+        "passive": "Standard Issue",
+        "description": "The CW-22 Kodiak armor was thoroughly pressure-tested by patriotic volunteers, as part of the “Test Subjects for Super-Earth” Citizen Advancement Program."
+    },
+    {
+        "id": "AF-52",
+        "name": "Lockdown",
+        "armor": 100,
+        "speed": 100,
+        "stamina": 100,
+        "passive": "Standard Issue",
+        "description": "Heavily layered to protect against ocular blistering, subdermal liquification, and gastrointestinal shattering, this armor is a testament to the power of iterative improvements based on user feedback."
+    },
+    {
+        "id": "UF-16",
+        "name": "Inspector",
+        "armor": 100,
+        "speed": 100,
+        "stamina": 100,
+        "passive": "Standard Issue",
+        "description": "Made famous by the 'Truth Enforcers: Enforcers of Truth' mystery novels, this armor calls to mind those paragons of patriotism who protect us from treasonous lies."
+    }
+]

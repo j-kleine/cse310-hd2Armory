@@ -1,0 +1,92 @@
+[
+    {
+        "id": "SC-37",
+        "name": "Legionnaire",
+        "type": "Light",
+        "armor": 50,
+        "speed": 550,
+        "stamina": 125,
+        "passive": "Servo-Assisted",
+        "description": "This armor is based on the antique uniforms of the 'Super Earth Legion', a less patriotic precursor to the Helldivers."
+    },
+    {
+        "id": "B-08",
+        "name": "Light Gunner",
+        "type": "Light",
+        "armor": 100,
+        "speed": 550,
+        "stamina": 125,
+        "passive": "Extra Padding",
+        "description": "Compact and flexible, this kevlar armor adds minimal mass, making it a common choice for Helldiver fitness tests."
+    },
+    {
+        "id": "SR-24",
+        "name": "Street Scout",
+        "type": "Light",
+        "armor": 50,
+        "speed": 550,
+        "stamina": 125,
+        "passive": "Siege-Ready",
+        "description": "This armor's nostalgic color scheme brings to mind beloved trappings of colonial yesteryear: concrete frontier domiciles, slate-colored civilian jumpsuits, and Space Settlers' Pie."
+    },
+    {
+        "id": "B-24",
+        "name": "Enforcer",
+        "type": "Medium",
+        "armor": 129,
+        "speed": 471,
+        "stamina": 71,
+        "passive": "Fortified",
+        "description": "In field tests, 84% of users said that the armor improved their posture and self-esteem."
+    },
+    {
+        "id": "PH-56",
+        "name": "Jaguar",
+        "type": "Medium",
+        "armor": 100,
+        "speed": 500,
+        "stamina": 100,
+        "passive": "Peak Physique",
+        "description": "'Prowl like a jaguar, strike like a viper.' — Motto of the storied SEAF special operations unit whose real exploits were portrayed in the classic comic book series 'Tales of the Viper Commandos'."
+    },
+    {
+        "id": "AC-1",
+        "name": "Dutiful",
+        "type": "Medium",
+        "armor": 100,
+        "speed": 500,
+        "stamina": 100,
+        "passive": "Acclimated",
+        "description": "The breathing apparatus built into this armor helps both soldiers and colonists thrive, even when assigned to planets with atmospheres rated 'suboptimal,' 'extreme,' and 'character building'."
+    },
+    {
+        "id": "FS-23",
+        "name": "Battle Master",
+        "type": "Heavy",
+        "armor": 150,
+        "speed": 450,
+        "stamina": 50,
+        "passive": "Fortified",
+        "description": "This aim-stabilizing armor found surprising secondary market success among alien birdwatching enthusiasts."
+    },
+    {
+        "id": "I-44",
+        "name": "Salamander",
+        "type": "Heavy",
+        "armor": 150,
+        "speed": 450,
+        "stamina": 50,
+        "passive": "Inflammable",
+        "description": "The signature orange pauldron allows easy battlefield detection of the bearer, alive or dead, on ash-strewn battlefields."
+    },
+    {
+        "id": "GS-66",
+        "name": "Lawmaker",
+        "type": "Heavy",
+        "armor": 150,
+        "speed": 450,
+        "stamina": 50,
+        "passive": "Gunslinger",
+        "description": "Embodies the ethos of Manifest Democracy — that it is our voter-given responsibility to emancipate the savage, un-Liberated galaxy. To rest only when every planet is safe, civilized, and Free."
+    }
+]

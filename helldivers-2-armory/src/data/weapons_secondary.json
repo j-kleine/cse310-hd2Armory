@@ -1,0 +1,83 @@
+[
+    {
+        "id": "P-113",
+        "name": "Verdict",
+        "type": "Pistols",
+        "armorPen": 3,
+        "damage": 125,
+        "recoil": 40,
+        "fireRate": 450,
+        "capacity": 10,
+        "spareMagazines": 8,
+        "specialTraits": [
+            "Medium Armor Penetrating",
+            "One Handed"
+        ],
+        "description": "The gas-operated, semiautomatic P-113 chambers the 14mm 'Rapid Deliberation,' the largest centerfire cartridge of any magazine-fed pistol."
+    },
+    {
+        "id": "P-4",
+        "name": "Senator",
+        "type": "Pistols",
+        "armorPen": 4,
+        "damage": 200,
+        "recoil": 43,
+        "fireRate": 200,
+        "capacity": 6,
+        "spareMagazines": 40,
+        "specialTraits": [
+            "Heavy Armor Penetrating",
+            "One Handed",
+            "Rounds Reload"
+        ],
+        "description": "A high-damage revolver, which can be reloaded with single rounds. A heavy-hitting and reliable sidearm."
+    },
+    {
+        "id": "CQC-19",
+        "name": "Stun Lance",
+        "type": "Melee",
+        "armorPen": 3,
+        "damage": 110,
+        "recoil": 8,
+        "fireRate": 117,
+        "capacity": 0,
+        "spareMagazines": 0,
+        "specialTraits": [
+            "One Handed",
+            "Stun"
+        ],
+        "description": "A melee weapon tipped with electrified prongs that temporarily stun targets. Can be wielded one-handed."
+    },
+    {
+        "id": "GP-31",
+        "name": "Grenade Pistol",
+        "type": "Special",
+        "armorPen": 3,
+        "damage": 650,
+        "recoil": 43,
+        "fireRate": 900,
+        "capacity": 1,
+        "spareMagazines": 6,
+        "specialTraits": [
+            "One Handed",
+            "Explosive"
+        ],
+        "description": "A pistol that fires grenades. Must be reloaded between shots."
+    },
+    {
+        "id": "GP-31",
+        "name": "Ultimatum",
+        "type": "Special",
+        "armorPen": 8,
+        "damage": 4500,
+        "recoil": 43,
+        "fireRate": 900,
+        "capacity": 1,
+        "spareMagazines": 1,
+        "specialTraits": [
+            "One Handed",
+            "Explosive"
+        ],
+        "description": "A pistol front-loaded with a single, powerful explosive. The weight of the projectile limits the weapon's range."
+    }
+]

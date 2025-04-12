@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Hellpod Space Optimization",
+        "description": "Helldivers come out of the Hellpod fully stocked on Ammo, Grenades, and Stims."
+    },
+    {
+        "name": "Vitality Enhancement",
+        "description": "Provides minor damage reduction from all sources for all Helldivers."
+    },
+    {
+        "name": "Stamina Enhancement",
+        "description": "Increases all Helldivers' stamina capacity and recovery."
+    },
+    {
+        "name": "Muscle Enhancement",
+        "description": "Allows Helldivers to traverse difficult terrain with ease."
+    },
+    {
+        "name": "Experimental Infusion",
+        "description": "In addition to restoring health, stims temporarily increase movement speed and damage reduction."
+    }
+]

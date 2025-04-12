@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Pride of the Whistleblower",
+        "armor": 100,
+        "speed": 100,
+        "stamina": 100,
+        "passive": "Standard Issue",
+        "description": "Granted to the Truth Enforcers' Informant of the Month, this tasteful cape conjures images of dissident blood on asphalt."
+    },
+    {
+        "name": "Stone-Wrought Perseverance",
+        "armor": 100,
+        "speed": 100,
+        "stamina": 100,
+        "passive": "Standard Issue",
+        "description": "When wearers stand shoulder to shoulder, this cape shows them as they truly are: an unbreakable defense, keeping Freedom safe behind an impregnable wall."
+    },
+    {
+        "name": "Eye of Freedom",
+        "armor": 100,
+        "speed": 100,
+        "stamina": 100,
+        "passive": "Standard Issue",
+        "description": "A mark of stalwart loyalty bestowed only to those who have proved themselves worthy through unquestioning dedication."
+    },
+    {
+        "name": "Veil of the Valorous Vagabond",
+        "armor": 100,
+        "speed": 100,
+        "stamina": 100,
+        "passive": "Standard Issue",
+        "description": "Legend tells of the unnamed Helldiver, wandering the edges of Super Earth's reach, delivering Democracy and leveling lawlessness wherever the tumbleweeds lead. Wear this, and keep the legend alive."
+    },
+    {
+        "name": "Fallen Hero's Vengeance",
+        "armor": 100,
+        "speed": 100,
+        "stamina": 100,
+        "passive": "Standard Issue",
+        "description": "Our heroic fallen live on in this cape, guiding its bearer's aim to the heart of those who killed them."
+    }
+]

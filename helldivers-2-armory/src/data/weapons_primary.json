@@ -1,0 +1,145 @@
+[
+    {
+        "id": "AR-23",
+        "name": "Liberator",
+        "type": "Assault Rifles",
+        "armorPen": 2,
+        "damage": 80,
+        "recoil": 14,
+        "fireRate": 600,
+        "capacity": 45,
+        "spareMagazines": 8,
+        "specialTraits": [
+            "Light Armor Penetrating"
+        ],
+        "description": "The SEAF standard assault rifle, balancing power, fire rate, and weight for a reliable weapon against smaller targets."
+    },
+    {
+        "id": "AR-23P",
+        "name": "Liberator Penetrator",
+        "type": "Assault Rifles",
+        "armorPen": 3,
+        "damage": 60,
+        "recoil": 19,
+        "fireRate": 640,
+        "capacity": 45,
+        "spareMagazines": 7,
+        "specialTraits": [
+            "Medium Armor Penetrating"
+        ],
+        "description": "A modified Liberator fitted with a scope and firing armor-piercing rounds, to help users take down armored targets."
+    },
+    {
+        "id": "StA-52",
+        "name": "Assault Rifle",
+        "type": "Assault Rifles",
+        "armorPen": 2,
+        "damage": 80,
+        "recoil": 19,
+        "fireRate": 790,
+        "capacity": 56,
+        "spareMagazines": 6,
+        "specialTraits": [
+            "Light Armor Penetrating"
+        ],
+        "description": "An assault rifle with a high-capacity drum magazine, good for providing sustained fire. Produced by Stäl Arms."
+    },
+    {
+        "id": "R-6",
+        "name": "Deadeye",
+        "type": "Marksman Rifles",
+        "armorPen": 3,
+        "damage": 300,
+        "recoil": 120,
+        "fireRate": 100,
+        "capacity": 8,
+        "spareMagazines": 60,
+        "specialTraits": [
+            "Rounds Reload",
+            "Medium Armor Penetrating"
+        ],
+        "description": "A mighty rifle with a signature lever-action enabling single round reload. Powerful precision suited to mid- and long-range combat."
+    },
+    {
+        "id": "MP-98",
+        "name": "Knight",
+        "type": "Submachine Guns",
+        "armorPen": 2,
+        "damage": 70,
+        "recoil": 15,
+        "fireRate": 1380,
+        "capacity": 50,
+        "spareMagazines": 7,
+        "specialTraits": [
+            "Light Armor Penetrating",
+            "One Handed"
+        ],
+        "description": "A submachine gun with an extremely high rate of fire, which can be operated with one hand. Ideal for multitasking."
+    },
+    {
+        "id": "SG-451",
+        "name": "Cookout",
+        "type": "Shotguns",
+        "armorPen": 2,
+        "damage": 320,
+        "recoil": 100,
+        "fireRate": 80,
+        "capacity": 16,
+        "spareMagazines": 60,
+        "specialTraits": [
+            "Light Armor Penetrating",
+            "Rounds Reload",
+            "Incendiary"
+        ],
+        "description": "A pump shotgun that fires a burst of incendiary phosphorus pellets, setting targets ablaze."
+    },
+    {
+        "id": "CB-9",
+        "name": "Exploding Crossbow",
+        "type": "Explosives",
+        "armorPen": 3,
+        "damage": 620,
+        "recoil": 35,
+        "fireRate": 50,
+        "capacity": 5,
+        "spareMagazines": 8,
+        "specialTraits": [
+            "Explosives",
+            "One Handed"
+        ],
+        "description": "Fires powerful exploding bolts which do maximum damage upon direct impact. Gravity must be accounted for when aiming."
+    },
+    {
+        "id": "LAS-17",
+        "name": "Double-Edge Sickle",
+        "type": "Energy-Based",
+        "armorPen": 4,
+        "damage": 70,
+        "recoil": 2,
+        "fireRate": 700,
+        "capacity": 0,
+        "spareMagazines": 3,
+        "specialTraits": [
+            "Light Armor Penetrating",
+            "Medium Armor Penetrating",
+            "Heavy Armor Penetrating",
+            "Heat"
+        ],
+        "description": "A LAS-16 Sickle model with all overheating protections conveniently removed, allowing for far longer bursts of fire. Does more damage when overheating, at the cost of slightly burning the user."
+    },
+    {
+        "id": "JAR-5",
+        "name": "Dominator",
+        "type": "Special",
+        "armorPen": 3,
+        "damage": 275,
+        "recoil": 75,
+        "fireRate": 250,
+        "capacity": 15,
+        "spareMagazines": 6,
+        "specialTraits": [
+            "Medium Armor Penetrating"
+        ],
+        "description": "Firing jet-propelled rounds, the Dominator trades fire rate and magazine capacity for increased damage per projectile."
+    }
+]

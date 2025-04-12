@@ -1,0 +1,48 @@
+[
+    {
+        "id": "MG-43",
+        "name": "Machine Gun",
+        "category": "Supply",
+        "department": "Patriotic Administration Center",
+        "callInTime": 7.75,
+        "uses": "unlimited",
+        "cooldownTime": 410,
+        "specialTraits": [
+            "Support Weapon",
+            "Hellpod",
+            "Light Armor Penetrating"
+        ],
+        "description": "A machine gun designed for stationary use. Trades higher power for increased recoil and reduced accuracy."
+    },
+    {
+        "id": null,
+        "name": "Orbital Airburst Strike",
+        "category": "Offensive",
+        "department": "Orbital Cannons",
+        "callInTime": 3.45,
+        "uses": "unlimited",
+        "cooldownTime": 85.5,
+        "specialTraits": [
+            "Explosive",
+            "Orbital",
+            "Medium Armor Penetrating"
+        ],
+        "description": "A projectile which explodes while airborne, creating a deadly rain of shrapnel. Not effective against heavy armor."
+    },
+    {
+        "id": "A/MLS-4X",
+        "name": "Rocket Sentry",
+        "category": "Defensive",
+        "department": "Robotics Workshop",
+        "callInTime": 4.75,
+        "uses": "unlimited",
+        "cooldownTime": 128.25,
+        "specialTraits": [
+            "Hellpod",
+            "Explosive",
+            "Sentry",
+            "Anti-Tank"
+        ],
+        "description": "A powerfully automated turret, effective against armored targets. The turret will primarily aim at larger enemies."
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "id": "G-6",
+        "name": "Frag",
+        "type": "Standard",
+        "armorPen": 3,
+        "damage": 500,
+        "outerRadius": 10,
+        "fuseTime": 2.4,
+        "specialTraits": [
+            "Medium Armor Penetrating",
+            "Explosive"
+        ],
+        "description": "An antipersonnel fragmentation grenade. Creates damage over a large area when detonated."
+    },
+    {
+        "id": "G-4",
+        "name": "Gas",
+        "type": "Special",
+        "armorPen": 6,
+        "damage": 25,
+        "outerRadius": 7,
+        "fuseTime": 2.9,
+        "specialTraits": [
+            "Caustic",
+            "Explosive"
+        ],
+        "description": "A grenade that releases a cloud of toxic gas, effective at blinding and slowing both organic and inorganic enemies."
+    },
+    {
+        "id": "G-123",
+        "name": "Thermite",
+        "type": "Special",
+        "armorPen": 7,
+        "damage": 2000,
+        "outerRadius": 3,
+        "fuseTime": 2.9,
+        "specialTraits": [
+            "Anti-Tank"
+        ],
+        "description": "A thermite grenade designed to adhere to surfaces before burning at 2000°C. Capable of burning through some armor."
+    }
+]
