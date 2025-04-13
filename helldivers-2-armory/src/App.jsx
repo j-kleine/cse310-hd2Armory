@@ -1,11 +1,29 @@
 import { useState } from 'react';
 import helldiversLogo from './assets/images/hd2-logo.png';
 
+import LoadoutInfoSection from './components/builder/LoadoutInfoSection';
+
+import WeaponsSection from './components/builder/WeaponsSection';
+import weaponsPrimary from './data/weapons_primary.json';
+import weaponsSecondary from './data/weapons_secondary.json';
+import throwables from './data/throwables.json';
+
+import ArmorSection from './components/builder/ArmorSection';
+import armor from './data/armor.json';
+import helmets from './data/helmets.json';
+import capes from './data/capes.json';
+
+import StratagemsSection from './components/builder/StratagemsSection';
+import stratagems from './data/stratagems.json';
+
+import BoostersSection from './components/builder/BoostersSection';
+import boosters from './data/boosters.json';
+
 function App() {
   const [view, setView] = useState('home');
 
   const [loadout, setLoadout] = useState({
-    name: '',
+    loadoutName: '',
     preferredEnemy: '',
     primaryWeapon: '',
     secondaryWeapon: '',
@@ -61,104 +79,42 @@ function App() {
           </div>
 
           {/* Section #1: Loadout Info */}
-          <section className='bg-neutral-900 p-6 rounded-2xl shadow-md'>
-            <h2 className='text-2xl text-helldiversYellow uppercase mb-4'>Loadout Info</h2>
-            <div className='flex flex-col md:flex-row gap-6'>
-              <input
-                type='text'
-                value={loadout.name}
-                onChange={(e) => updateField('name', e.target.value)}
-                placeholder='Loadout Name'
-                className='w-full md:w-1/2 p-3 rounded bg-neutral-800 text-white placeholder-gray-400'
-              />
-              <select 
-                value={loadout.preferredEnemy}
-                onChange={(e) => updateField('preferredEnemy', e.target.value)}
-                className='w-full md:w-1/2 p-3 rounded bg-neutral-800 text-white'>
-                <option value='' disabled>Preferred Enemy</option>
-                <option>Terminids</option>
-                <option>Automatons</option>
-                <option>Illuminate</option>
-              </select>
-            </div>
-          </section>
+          <LoadoutInfoSection
+            loadout={loadout}
+            updateField={updateField}
+          />
 
           {/* Section #2: Weapons */}
-          <section className='bg-neutral-900 p-6 rounded-2xl shadow-md'>
-            <h2 className='text-2xl text-helldiversYellow uppercase mb-4'>Weapons</h2>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
-              <select
-                value={loadout.primaryWeapon}
-                onChange={(e) => updateField('primaryWeapon', e.target.value)}
-                className='p-3 rounded bg-neutral-800 text-white'>
-                <option value='' disabled>Primary Weapon</option>
-              </select>
-              <select
-                value={loadout.secondaryWeapon}
-                onChange={(e) => updateField('secondaryWeapon', e.target.value)}
-                className='p-3 rounded bg-neutral-800 text-white'>
-                <option value='' disabled>Secondary Weapon</option>
-              </select>
-              <select
-                value={loadout.throwable}
-                onChange={(e) => updateField('throwable', e.target.value)}
-                className='p-3 rounded bg-neutral-800 text-white'>
-                <option value='' disabled>Throwable</option>
-              </select>
-            </div>
-          </section>
+          <WeaponsSection
+            loadout={loadout}
+            updateField={updateField}
+            weaponsPrimary={weaponsPrimary}
+            weaponsSecondary={weaponsSecondary}
+            throwables={throwables}
+          />
 
           {/* Section #3: Armor */}
-          <section className='bg-neutral-900 p-6 rounded-2xl shadow-md'>
-            <h2 className='text-2xl text-helldiversYellow uppercase mb-4'>Armor</h2>
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
-              <select
-                value={loadout.armor}
-                onChange={(e) => updateField('armor', e.target.value)}
-                className='p-3 rounded bg-neutral-800 text-white'>
-                <option value='' disabled>Armor</option>
-              </select>
-              <select
-                value={loadout.helmet}
-                onChange={(e) => updateField('helmet', e.target.value)}
-                className='p-3 rounded bg-neutral-800 text-white'>
-                <option value='' disabled>Helmet</option>
-              </select>
-              <select
-                value={loadout.cape}
-                onChange={(e) => updateField('cape', e.target.value)}
-                className='p-3 rounded bg-neutral-800 text-white'>
-                <option value='' disabled>Cape</option>
-              </select>
-            </div>
-          </section>
+          <ArmorSection
+            loadout={loadout}
+            updateField={updateField}
+            armor={armor}
+            helmets={helmets}
+            capes={capes}
+          />
 
           {/* Section #4: Stratagems */}
-          <section className='bg-neutral-900 p-6 rounded-2xl shadow-md'>
-            <h2 className='text-2xl text-helldiversYellow uppercase mb-4'>Stratagems</h2>
-            <div className='grid grid-cols-1 md:grid-cols-4 gap-4'>
-              {loadout.stratagems.map((stratagem, index) => (
-                <select
-                  key={index}
-                  value={stratagem}
-                  onChange={(e) => updateStratagem(index, e.target.value)}
-                  className='p-3 rounded bg-neutral-800 text-white'>
-                  <option value='' disabled>Slot {index + 1}</option>
-                </select>
-              ))}
-            </div>
-          </section>
+          <StratagemsSection
+            loadout={loadout}
+            updateStratagem={updateStratagem}
+            stratagems={stratagems}
+          />
 
           {/* Section #5: Booster */}
-          <section className='bg-neutral-900 p-6 rounded-2xl shadow-md'>
-            <h2 className='text-2xl text-helldiversYellow uppercase mb-4'>Booster</h2>
-            <select
-              value={loadout.booster}
-              onChange={(e) => updateField('booster', e.target.value)}
-              className='w-full p-3 rounded bg-neutral-800 text-white'>
-              <option value='' disabled>Select a Booster</option>
-            </select>
-          </section>
+          <BoostersSection
+            loadout={loadout}
+            updateField={updateField}
+            boosters={boosters}
+          />
 
           {/* Create Preview Button */}
           <div className='flex justify-center'>
