@@ -53,6 +53,8 @@ function App() {
 
   return (
     <div className='bg-black font-helldiversBody text-white'>
+
+      {/* HOME PAGE VIEW */}
       {view === 'home' && (
         <div className='min-h-screen p-6 flex flex-col gap-10 items-center justify-center'>
           <div className='flex flex-col gap-2 items-center'>
@@ -70,6 +72,7 @@ function App() {
         </div>
       )}
 
+      {/* LOADOUT BUILDER VIEW */}
       {view === 'builder' && (
         <div className='min-h-screen p-6 flex flex-col gap-10'>
           {/* Header */}
@@ -119,7 +122,24 @@ function App() {
           {/* Create Preview Button */}
           <div className='flex justify-center'>
             <button
-              onClick={() => console.log('Current Loadout:', loadout)}
+              onClick={() => {
+                const queryParams = new URLSearchParams({
+                  loadoutName: loadout.loadoutName,
+                  preferredEnemy: loadout.preferredEnemy,
+                  primaryWeapon: loadout.primaryWeapon,
+                  secondaryWeapon: loadout.secondaryWeapon,
+                  throwable: loadout.throwable,
+                  armor: loadout.armor,
+                  helmet: loadout.helmet,
+                  cape: loadout.cape,
+                  booster: loadout.booster,
+                  s1: loadout.stratagems[0],
+                  s2: loadout.stratagems[1],
+                  s3: loadout.stratagems[2],
+                  s4: loadout.stratagems[3]
+                }).toString();
+                window.open(`preview.html?${queryParams}`, '_blank');
+              }}
               className='px-10 py-3 border-2 border-helldiversYellow text-helldiversYellow text-xl uppercase hover:text-white transition'>
               Create Preview
             </button>
