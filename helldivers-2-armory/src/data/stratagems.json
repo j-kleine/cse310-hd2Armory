@@ -30,6 +30,20 @@
         "description": "A projectile which explodes while airborne, creating a deadly rain of shrapnel. Not effective against heavy armor."
     },
     {
+        "id": "LIFT-850",
+        "name": "Jump Pack",
+        "category": "Supply",
+        "department": "Hangar",
+        "callInTime": 9.75,
+        "uses": "unlimited",
+        "cooldownTime": 410.4,
+        "specialTraits": [
+            "Hellpod",
+            "Backpack"
+        ],
+        "description": "Enables the user to jump higher than 'gravity' and 'safety; would normally allow. Must be charged before use."
+    },
+    {
         "id": "A/MLS-4X",
         "name": "Rocket Sentry",
         "category": "Defensive",
